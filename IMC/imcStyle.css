@@ -104,16 +104,21 @@ header{
   border: aliceblue solid;
 }
 
-.resultado{
-  
-  margin-top: 20px;
+.informacoes .resultado{
+position: relative;
 }
 
 .informacoes #resultado{
+  color: black;
+  font-size: 30px;
   background-color: aliceblue;
   height: 100px;
-  width: 98%;
+  width: 30%;
+  border-radius: 5px;
   user-select: none;
+  position: absolute;
+  margin-top: 20px;
+  right: 35%;
 }
 
 .btn button{
